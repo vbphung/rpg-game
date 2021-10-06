@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="weapon-list-view">
+        <engine:TextField name="weapon-search-field"/>
+        <engine:ListView name="weapon-list"/>
+        <engine:TextField name="new-weapon-name"/>
+        <engine:Button name="weapon-create-button"/>
+    </engine:VisualElement>
+    <engine:Box name="weapon-info">
+        <engine:Image name="weapon-icon"/>
+        <engine:ScrollView name="weapon-properties"/>
+    </engine:Box>
+</UXML>
